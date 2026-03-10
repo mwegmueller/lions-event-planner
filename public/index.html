@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lions Club Schweiz - Event-Ideen Planer</title>
   <link rel="stylesheet" href="/css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦁</text></svg>">
+  <link rel="icon" href="/lions-logo.png" type="image/png">
 </head>
 <body>
   <!-- Top Bar -->
@@ -20,12 +20,7 @@
   <header class="header">
     <div class="container">
       <a href="#" class="header-brand" onclick="navigate('home')">
-        <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <circle cx="50" cy="50" r="48" fill="#FDB913"/>
-          <circle cx="50" cy="50" r="42" fill="#003DA5"/>
-          <text x="50" y="62" text-anchor="middle" fill="#FDB913" font-size="36" font-weight="bold" font-family="serif">L</text>
-          <text x="50" y="82" text-anchor="middle" fill="white" font-size="10" font-weight="bold" font-family="sans-serif">LIONS</text>
-        </svg>
+        <img src="/lions-logo.png" alt="Lions Club International" class="header-logo">
         <h1>Event-Ideen Planer<span>Lions Club Schweiz</span></h1>
       </a>
       <button class="nav-toggle" onclick="document.querySelector('.nav').classList.toggle('open')">&#9776;</button>
@@ -44,6 +39,7 @@
   <div id="page-home">
     <section class="hero">
       <div class="container">
+        <img src="/lions-logo.png" alt="Lions Club International" class="hero-logo">
         <h2>Gemeinsam Ideen gestalten</h2>
         <p>Teile deine Event-Ideen, diskutiere mit anderen Mitgliedern und bewerte Vorschlaege gemeinsam.</p>
         <div class="hero-actions">
@@ -134,11 +130,7 @@
     <!-- Login -->
     <div id="adminLogin" class="admin-login">
       <div class="login-card">
-        <svg viewBox="0 0 100 100" width="64" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-bottom:16px">
-          <circle cx="50" cy="50" r="48" fill="#FDB913"/>
-          <circle cx="50" cy="50" r="42" fill="#003DA5"/>
-          <text x="50" y="62" text-anchor="middle" fill="#FDB913" font-size="36" font-weight="bold" font-family="serif">L</text>
-        </svg>
+        <img src="/lions-logo.png" alt="Lions Club International" class="login-logo">
         <h2>Admin Login</h2>
         <p class="subtitle">Zugang nur fuer berechtigte Personen</p>
         <form onsubmit="adminLogin(event)">
@@ -243,6 +235,7 @@
     <div class="container">
       <div class="footer-content">
         <div class="footer-brand">
+          <img src="/lions-logo.png" alt="Lions Club International" class="footer-logo">
           <h3>Lions Club Schweiz</h3>
           <p>Gemeinsam dienen wir unserer Gemeinschaft. Dieses Tool hilft uns, Event-Ideen zu sammeln, zu diskutieren und die besten Vorschlaege umzusetzen.</p>
         </div>
